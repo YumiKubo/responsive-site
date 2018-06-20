@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 2rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+a {
+  color: #14c0c9;
+  text-decoration: none; }
+  a:visited {
+    color: #0f949b; }
+  a:hover {
+    color: #0f949b; }
+  a:active {
+    color: #16d6e0; }
+
+/* Align　：整列$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #fdfcf6;
+$subColor: #bea300;
+$keyColor: #14c0c9;
+$fontColor: #4c4c4c;
+
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 2rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+a {
+  color: #14c0c9;
+  text-decoration: none; }
+  a:visited {
+    color: #0f949b; }
+  a:hover {
+    color: #0f949b; }
+  a:active {
+    color: #16d6e0; }
+
+/* Align　：整列
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Font　
+------------------------------------------------------------*/
+.abel {
+  font-family: 'Abel', sans-serif; }
+
+.maingazou {
+  background-image: url("../images/img-kadai_lesson7.bmp");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+
+.site-title {
+  width: 100%;
+  color: #14c0c9;
+  font-size: 3rem;
+  font-weight: bold; }
+
+.sp {
+  dispry: none; }
+
+/*contents
+-----------------------------------------------------------------*/
+#points {
+  display: flex;
+  flex-wrap: wrap; }
+  #points h2 {
+    width: 100%;
+    font-size: 2rem;
+    color: #bea300;
+    font-weight: bold; }
+  #points .point-box {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 30%;
+    height: 200x;
+    border: 2px solid #14c0c9;
+    color: #4c4c4c;
+    margin: 10px; }
+  #points h3 {
+    color: #fdfcf6;
+    font-size: 3rem;
+    background-color: #14c0c9;
+    padding: 7px; }
+
+.sp {
+  display: none; }
+
+@media (max-width: 768px) {
+  .maingazou {
+    height: 250px; }
+
+  .sp {
+    display: block; }
+
+  .text-center br {
+    display: none; }
+
+  #points .point-box {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; } }
+footer {
+  padding: 10px 0;
+  text-align: center;
+  line-height: 2.1;
+  color: #4c4c4c; }
+  footer .small {
+    font-size: 1rem; }
+  footer .button-contact {
+    background-color: #bea300;
+    color: #4c4c4c;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px; }
+
+/*# sourceMappingURL=style.css.map */

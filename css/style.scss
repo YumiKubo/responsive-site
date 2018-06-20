@@ -1,0 +1,163 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+// font-family
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #fdfcf6;
+$subColor: #bea300;
+$keyColor: #14c0c9;
+$fontColor: #4c4c4c;
+
+/* Base
+------------------------------------------------------------*/
+html{ font-size: 62.5%; }
+
+body{
+  color: $fontColor;
+  font-size: 2rem;
+  font-family:$baseFontFamily;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  background-color: $baseColor;
+}
+
+a {
+  @include link-colors($keyColor, darken($keyColor, 10%), lighten($keyColor, 5%), darken($keyColor, 10%));
+  text-decoration: none;
+}
+
+/* Align　：整列$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #fdfcf6;
+$subColor: #bea300;
+$keyColor: #14c0c9;
+$fontColor: #4c4c4c;
+
+/* Base
+------------------------------------------------------------*/
+html{ font-size: 62.5%; }
+
+body{
+  color: $fontColor;
+  font-size: 2rem;
+  font-family:$baseFontFamily;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  background-color: $baseColor;
+}
+
+a {
+  @include link-colors($keyColor, darken($keyColor, 10%), lighten($keyColor, 5%), darken($keyColor, 10%));
+  text-decoration: none;
+}
+
+/* Align　：整列
+------------------------------------------------------------*/
+.text-center {
+  text-align: center;
+}
+
+/* Font　
+------------------------------------------------------------*/
+.abel {
+  font-family: 'Abel', sans-serif;
+}
+
+
+.maingazou{
+  background-image: url("../images/img-kadai_lesson7.bmp");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+ }
+
+
+.site-title{
+  width:100%;
+  color: $keyColor;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.sp{
+  dispry:none;
+}
+
+/*contents
+-----------------------------------------------------------------*/
+
+#points{
+  display:flex;
+  flex-wrap:wrap;
+
+  h2{
+    width: 100%;
+    font-size: 2rem;
+    color: $subColor;
+    font-weight: bold;
+  }
+  .point-box{
+    @include flex-direction(row);
+    width: 30%;
+    height: 200x;
+    border:2px solid $keyColor;
+    color:$fontColor;
+    margin: 10px;
+  
+  }
+
+  h3{
+    color: $baseColor;
+    font-size:3rem;
+    background-color: $keyColor;
+    padding: 7px;
+  }
+}
+
+.sp{
+  display:none;
+}
+@media (max-width: 768px){
+
+  .maingazou{
+     height: 250px;
+  }
+  
+  .sp{
+    display:block;
+  }
+
+.text-center br{
+  display: none;
+}
+
+
+#points .point-box{
+     @include flex-direction(column);
+      justify-content: space-between;
+      width: 100%;
+  }
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+  line-height: 2.1;
+  color: $fontColor;
+
+.small {
+  font-size: 1rem;
+}
+
+.button-contact{
+  background-color: $subColor;
+  color:$fontColor;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+   }
+   
+}
