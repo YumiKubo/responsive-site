@@ -123,6 +123,7 @@ a {
     justify-content: space-between;
     width: 100%; } }
 footer {
+  background-color: #bea300;
   padding: 10px 0;
   text-align: center;
   line-height: 2.1;
@@ -130,7 +131,7 @@ footer {
   footer .small {
     font-size: 1rem; }
   footer .button-contact {
-    background-color: #bea300;
+    background-color: #fdfcf6;
     color: #4c4c4c;
     border-radius: 3px;
     padding: 10px;

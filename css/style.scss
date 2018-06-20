@@ -143,6 +143,7 @@ a {
 }
 
 footer {
+  background-color: $subColor;
   padding: 10px 0;
   text-align: center;
   line-height: 2.1;
@@ -153,7 +154,7 @@ footer {
 }
 
 .button-contact{
-  background-color: $subColor;
+  background-color: $baseColor;
   color:$fontColor;
   border-radius: 3px;
   padding: 10px;
